@@ -296,10 +296,9 @@
         </section> <!-- end s-about -->   
 
 
-<!-- # works
-================================================== -->
-<section id="works" class="s-works target-section">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
+<section id="works" class="s-works target-section">
     <div class="row">
         <div class="column xl-12">
             <div class="section-header" data-num="02">
@@ -309,80 +308,30 @@
     </div>
 
     <div class="folio-entries-grid">
-        <!-- SIEM – Wazuh & ELK Stack -->
         <div class="entry">
-            <a href="images/folio/gallery/siem_wazuh_elk.jpeg"
-               class="entry__link glightbox"
+            <a href="images/folio/gallery/siem_wazuh_elk.jpeg" class="entry__link glightbox"
                data-glightbox="title: SIEM – Wazuh & ELK Stack; description: Built a Security Information & Event Management system using Wazuh, Elasticsearch, Logstash, and Kibana for real-time threat detection.">
                 <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
                 <h4>SIEM – Wazuh & ELK Stack</h4>
             </a>
         </div>
-
-        <!-- Web Vulnerability Scanner -->
         <div class="entry">
-            <a href="images/folio/gallery/web_vulnerability_scanner.jpeg"
-               class="entry__link glightbox"
+            <a href="images/folio/gallery/web_vulnerability_scanner.jpeg" class="entry__link glightbox"
                data-glightbox="title: Web Vulnerability Scanner; description: Automated scanner to detect SQLI, XSS, CSRF, and other web app vulnerabilities.">
                 <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
                 <h4>Web Vulnerability Scanner</h4>
             </a>
         </div>
-
-        <!-- Password Strength Checker -->
         <div class="entry">
-            <a href="images/folio/gallery/password_strength_checker.jpeg"
-               class="entry__link glightbox"
+            <a href="images/folio/gallery/password_strength_checker.jpeg" class="entry__link glightbox"
                data-glightbox="title: Password Strength Checker; description: A Python tool that evaluates password entropy, complexity, and strength rules.">
                 <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
                 <h4>Password Strength Checker</h4>
             </a>
         </div>
-
-        <!-- SecureText Encryptor -->
         <div class="entry">
-            <a href="images/folio/gallery/securetext_encryptor.jpeg"
-               class="entry__link glightbox"
-               data-glightbox="title: SecureText Encryptor; description: A simple but secure text encryption & decryption tool built with Python.">
-                <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
-                <h4>SecureText Encryptor</h4>
-            </a>
-        </div>
-    </div>
-
-</section>
-
-<!-- GLightbox JS -->
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script>
-    const lightbox = GLightbox({ selector: '.glightbox' });
-</script>
-
-<!-- CSS for 4-image grid -->
-<style>
-.folio-entries-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.folio-entries-grid .entry img {
-    width: 100%;
-    display: block;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.folio-entries-grid .entry img:hover {
-    transform: scale(1.05);
-}
-
-.folio-entries-grid .entry h4 {
-    text-align: center;
-    margin-top: 8px;
-    font-size: 1rem;
-}
-</style>
+            <a href="images/folio/gallery/securetext_encryptor.jpeg" class="entry__link glightbox"
+               data-glightbox="title: SecureText Enc
 
 
             <div class="row s-testimonials">
@@ -645,6 +594,7 @@
 </body>
 
 </html>
+
 
 
 
