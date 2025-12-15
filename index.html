@@ -299,7 +299,6 @@
 <!-- Include GLightbox CSS in <head> -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-<!-- # Works Section -->
 <section id="works" class="s-works target-section">
     <div class="row">
         <div class="column xl-12">
@@ -314,13 +313,8 @@
         <div class="entry">
             <a href="images/folio/gallery/siem_wazuh_elk.jpeg" class="glightbox"
                data-glightbox="title: SIEM – Wazuh & ELK Stack; description: Built a Security Information & Event Management system using Wazuh, Elasticsearch, Logstash, and Kibana for real-time threat detection.">
-                <div class="entry-thumb">
-                    <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
-                    <div class="overlay">
-                        <h4>SIEM – Wazuh & ELK Stack</h4>
-                        <a href="https://github.com/SafwanaNasrin/wazuh-elk-siem-project" target="_blank" class="github-btn">GitHub</a>
-                    </div>
-                </div>
+                <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
+                <h4>SIEM – Wazuh & ELK Stack</h4>
             </a>
         </div>
 
@@ -328,13 +322,8 @@
         <div class="entry">
             <a href="images/folio/gallery/web_vulnerability_scanner.jpeg" class="glightbox"
                data-glightbox="title: Web Vulnerability Scanner; description: Automated scanner to detect SQLI, XSS, CSRF, and other web app vulnerabilities.">
-                <div class="entry-thumb">
-                    <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
-                    <div class="overlay">
-                        <h4>Web Vulnerability Scanner</h4>
-                        <a href="https://github.com/SafwanaNasrin/web_vuln_scanner" target="_blank" class="github-btn">GitHub</a>
-                    </div>
-                </div>
+                <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
+                <h4>Web Vulnerability Scanner</h4>
             </a>
         </div>
 
@@ -342,13 +331,8 @@
         <div class="entry">
             <a href="images/folio/gallery/password_strength_checker.jpeg" class="glightbox"
                data-glightbox="title: Password Strength Checker; description: A Python tool that evaluates password entropy, complexity, and strength rules.">
-                <div class="entry-thumb">
-                    <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
-                    <div class="overlay">
-                        <h4>Password Strength Checker</h4>
-                        <a href="https://github.com/SafwanaNasrin/password_strength_checker" target="_blank" class="github-btn">GitHub</a>
-                    </div>
-                </div>
+                <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
+                <h4>Password Strength Checker</h4>
             </a>
         </div>
 
@@ -356,13 +340,8 @@
         <div class="entry">
             <a href="images/folio/gallery/securetext_encryptor.jpeg" class="glightbox"
                data-glightbox="title: SecureText Encryptor; description: A simple but secure text encryption & decryption tool built with Python.">
-                <div class="entry-thumb">
-                    <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
-                    <div class="overlay">
-                        <h4>SecureText Encryptor</h4>
-                        <a href="https://github.com/SafwanaNasrin/securetext_encryptor" target="_blank" class="github-btn">GitHub</a>
-                    </div>
-                </div>
+                <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
+                <h4>SecureText Encryptor</h4>
             </a>
         </div>
     </div>
@@ -374,7 +353,7 @@
     const lightbox = GLightbox({ selector: '.glightbox' });
 </script>
 
-<!-- CSS for 4-image grid + overlay -->
+<!-- CSS for grid display -->
 <style>
 .folio-entries-grid {
     display: grid;
@@ -383,55 +362,22 @@
     margin-top: 20px;
 }
 
-.entry-thumb {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.entry-thumb img {
+.entry img {
     width: 100%;
     display: block;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.entry-thumb:hover img {
+.entry:hover img {
     transform: scale(1.05);
 }
 
-.overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0,0,0,0.6);
-    color: #fff;
-    width: 100%;
+.entry h4 {
     text-align: center;
-    padding: 10px 0;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.entry-thumb:hover .overlay {
-    opacity: 1;
-}
-
-.overlay h4 {
-    margin: 0 0 5px;
+    margin-top: 8px;
     font-size: 1rem;
-}
-
-.github-btn {
-    display: inline-block;
-    padding: 5px 10px;
-    background: #fff;
-    color: #000;
-    font-size: 0.8rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-.github-btn:hover {
-    background: #000;
-    color: #fff;
+    color: #333;
 }
 </style>
 
@@ -695,6 +641,7 @@
 </body>
 
 </html>
+
 
 
 
