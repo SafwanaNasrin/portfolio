@@ -304,87 +304,85 @@
         <div class="column xl-12">
             <div class="section-header" data-num="02">
                 <h2 class="text-display-title">Projects</h2>
-            </div> <!-- end section-header -->
+            </div>
         </div>
     </div>
 
-    <div class="row folio-entries">
-
+    <div class="folio-entries-grid">
         <!-- SIEM – Wazuh & ELK Stack -->
-        <div class="column entry">
+        <div class="entry">
             <a href="images/folio/gallery/siem_wazuh_elk.jpeg"
                class="entry__link glightbox"
                data-glightbox="title: SIEM – Wazuh & ELK Stack; description: Built a Security Information & Event Management system using Wazuh, Elasticsearch, Logstash, and Kibana for real-time threat detection.">
-                <div class="entry__thumb">
-                    <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
-                </div>
-                <div class="entry__info">
-                    <h4 class="entry__title">SIEM – Wazuh & ELK Stack</h4>
-                    <div class="entry__cat">SOC · Log Monitoring</div>
-                </div>
+                <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
+                <h4>SIEM – Wazuh & ELK Stack</h4>
             </a>
-            <p>
-                <a href="https://github.com/SafwanaNasrin/wazuh-elk-siem-project" target="_blank">View on GitHub</a>
-            </p>
         </div>
 
         <!-- Web Vulnerability Scanner -->
-        <div class="column entry">
+        <div class="entry">
             <a href="images/folio/gallery/web_vulnerability_scanner.jpeg"
                class="entry__link glightbox"
                data-glightbox="title: Web Vulnerability Scanner; description: Automated scanner to detect SQLI, XSS, CSRF, and other web app vulnerabilities.">
-                <div class="entry__thumb">
-                    <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
-                </div>
-                <div class="entry__info">
-                    <h4 class="entry__title">Web Vulnerability Scanner</h4>
-                    <div class="entry__cat">Security Testing · Python</div>
-                </div>
+                <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
+                <h4>Web Vulnerability Scanner</h4>
             </a>
-            <p>
-                <a href="https://github.com/SafwanaNasrin/web_vuln_scanner" target="_blank">View on GitHub</a>
-            </p>
         </div>
 
         <!-- Password Strength Checker -->
-        <div class="column entry">
+        <div class="entry">
             <a href="images/folio/gallery/password_strength_checker.jpeg"
                class="entry__link glightbox"
                data-glightbox="title: Password Strength Checker; description: A Python tool that evaluates password entropy, complexity, and strength rules.">
-                <div class="entry__thumb">
-                    <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
-                </div>
-                <div class="entry__info">
-                    <h4 class="entry__title">Password Strength Checker</h4>
-                    <div class="entry__cat">Security Basics · Python</div>
-                </div>
+                <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
+                <h4>Password Strength Checker</h4>
             </a>
-            <p>
-                <a href="https://github.com/SafwanaNasrin/password_strength_checker" target="_blank">View on GitHub</a>
-            </p>
         </div>
 
         <!-- SecureText Encryptor -->
-        <div class="column entry">
+        <div class="entry">
             <a href="images/folio/gallery/securetext_encryptor.jpeg"
                class="entry__link glightbox"
                data-glightbox="title: SecureText Encryptor; description: A simple but secure text encryption & decryption tool built with Python.">
-                <div class="entry__thumb">
-                    <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
-                </div>
-                <div class="entry__info">
-                    <h4 class="entry__title">SecureText Encryptor</h4>
-                    <div class="entry__cat">Encryption · Security Tool</div>
-                </div>
+                <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
+                <h4>SecureText Encryptor</h4>
             </a>
-            <p>
-                <a href="https://github.com/SafwanaNasrin/securetext_encryptor" target="_blank">View on GitHub</a>
-            </p>
         </div>
-
-    </div> <!-- end folio entries -->
+    </div>
 
 </section>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+</script>
+
+<!-- CSS for 4-image grid -->
+<style>
+.folio-entries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.folio-entries-grid .entry img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.folio-entries-grid .entry img:hover {
+    transform: scale(1.05);
+}
+
+.folio-entries-grid .entry h4 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+</style>
 
 
             <div class="row s-testimonials">
@@ -647,6 +645,7 @@
 </body>
 
 </html>
+
 
 
 
