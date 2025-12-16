@@ -1,129 +1,87 @@
-==================================================================================================
+## About Me
 
-DESCRIPTION:
+Hi, I’m **Safwana Nasrin**, a passionate **Cybersecurity Analyst** with hands-on experience in:
 
-HUDSON is a simple and modern free personal website template designed for creatives and 
-professionals who want to showcase their skills and work in an eye-catching way. Its simple yet 
-sophisticated design is perfect for anyone who wants to create a polished and professional online 
-presence without spending a lot of time or money on web development.
+- Web application security & vulnerability assessment  
+- Penetration testing & ethical hacking  
+- SIEM implementation and threat monitoring  
+- Network & cloud security  
 
-==================================================================================================
+I enjoy solving complex problems, exploring emerging technologies, participating in CTF challenges, and contributing to the cybersecurity community.
 
+---
 
-LICENSE:
+## Experience
 
-This free resource is provided by styleshout.com and is free to use in 
-both personal and commercial projects.
+- **Security Analyst Intern** – Synnefo Solutions | 1 Month  
+  - Performed vulnerability assessments on web applications  
+  - Assisted in incident response and threat analysis  
+  - Implemented security best practices  
 
+- **IT Trainer – Cloud, Networking & Ethical Hacking** – Livewire | Present  
+  - Delivered hands-on training in AWS, Networking & Ethical Hacking  
+  - Conducted penetration testing labs  
+  - Guided students on secure configurations  
 
-Rights:
--------
+---
 
-You are permitted to use this free resource in any number of personal and commercial projects for 
-yourself or a client. You may modify the resource according to your requirements and include them 
-in your projects under the following condition - you MUST give appropriate credit, provide an 
-attribution link to styleshout.com.
+## Achievements
 
+- Featured in Inflectra Responsible Disclosure Hall of Fame (2025)  
+- Completed 50+ TryHackMe labs  
+- Completed PortSwigger OWASP Top 10 Labs  
+- Built secure AWS cloud environments  
 
-Prohibitions:
--------------
+---
 
-You are not permitted to resell or redistribute(even for free) the resource "as is" without 
-prior consent. If you would like to republish or promote this resource on your site, please 
-link back to the appropriate resource page on styleshout.com where users can find the download 
-and not directly to the download zip file.
+## Skills
 
+- Security Analysis & Incident Response  
+- Vulnerability Assessment & Penetration Testing (VAPT)  
+- SIEM: Wazuh, Splunk, ELK  
+- Network Security & Firewalls  
+- AWS Cloud Security  
+- Web Security (OWASP Top 10)  
+- Linux & Windows Security  
 
-Attribution: 
-------------
+---
 
-You must include a credit link to our website(https://styleshout.com) somewhere on your site. 
-We prefer the footer credit that comes with the template but you are still free to move it 
-somewhere else.
+## Projects
 
+### [SIEM – Wazuh & ELK Stack](https://github.com/SafwanaNasrin/wazuh-elk-siem-project)  
+*SOC · Log Monitoring*  
+Built a SIEM using Wazuh, Elasticsearch, Logstash, and Kibana for real-time log monitoring and threat detection.  
 
+### [Web Vulnerability Scanner](https://github.com/SafwanaNasrin/web-vulnerability-scanner)  
+*Web Security · Python*  
+Automated Python-based scanner for detecting SQL Injection, XSS, CSRF, and common web vulnerabilities.  
 
-If you have any questions about the License, feel free to contact us.
+### [Password Strength Checker](https://github.com/SafwanaNasrin/password_strength_checker)  
+*Security Basics · Python*  
+Python tool to evaluate password entropy, complexity, and security best practices.  
 
+### [SecureText Encryptor](https://github.com/SafwanaNasrin/securetext_encryptor)  
+*Encryption · Security Tool*  
+Secure encryption and decryption tool built in Python using cryptographic best practices.  
 
------------------------------------------------------------------------------------------------------
+---
 
+## Contact
 
-REMOVING THE ATTRIBUTION LINK:
+- **Email:** [safwananasrinnn@gmail.com](mailto:safwananasrinnn@gmail.com)  
+- **Phone:** +91 7012455456  
+- **LinkedIn:** [Safwana Nasrin](https://www.linkedin.com/in/safwananasrin)  
+- **GitHub:** [SafwanaNasrin](https://github.com/SafwanaNasrin)  
 
-We understand that there are situations where you want to use our templates without 
-the crediting obligation. If that's your case, you can always send us a 
-credit removal fee of 10 USD through Paypal. This will allow you to use a single 
-template attribution/credit link free on ONE DOMAIN name.
+---
 
-You can send your payments through Paypal to this address: ealigam@gmail.com or
-visit our attribution removal page: https://styleshout.com/attribution-free/ 
-and click the pay button on the page.
+## License
 
-If possible, kindly send us the site's url where the template is being used. 
-Also, keep your Paypal receipt as proof of payment and your good to go.
+This portfolio uses the **HUDSON template** by [StyleShout](https://styleshout.com/) under their free-use license:  
+- Allowed for personal and commercial use  
+- Attribution is required unless a small fee is paid to remove it  
+- Do not redistribute the template "as-is"  
 
+---
 
------------------------------------------------------------------------------------------------------- 
-
-
-SUPPORT:
-    
-Since HUDSON is distributed for free, support is not offered. HUDSON is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
-
- - https://marksheet.io/
- - http://learn.shayhowe.com/html-css/
-
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-javascript in your skill-set, you can also check out these tutorials: 
-
- - https://www.codecademy.com/learn/introduction-to-javascript
- - https://javascript.info/
-
-
-
-
--------------------------------------------------------------------------------------------------------
-
-
-GET THE LATEST VERSION:
-
-We update our templates on a regular basis so to make sure that you have the latest version, 
-always download the template files directly on our website(https://styleshout.com/)
-
-
-
--------------------------------------------------------------------------------------------------------
-
-
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
-
-Fonts:
- - Castoro Font (https://fonts.google.com/specimen/Castoro)
- - Public Sans Font (https://fonts.google.com/specimen/Public+Sans)
-
-Icons:
- - Boxicons (https://boxicons.com/)
- - Iconmonstr (https://iconmonstr.com/)
-
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
- 
-Javascript Files:
- - MoveTo.js (https://github.com/hsnaydd/moveTo)
- - Prism.js (https://prismjs.com/)
- - Swiper JS (https://swiperjs.com/)
- - GLightbox (https://biati-digital.github.io/glightbox/)
-
--------------------------------------------------------------------------------------------------------
-
-
-Thanks for downloading from StyleShout :)
-
-
+*© 2025 Safwana Nasrin. All rights reserved.*
