@@ -4453,4 +4453,17 @@ td:last-child {
     font-weight: 600;
     text-decoration: none;
 }
+/* Make project images smaller */
+.folio-entries .entry__thumb img {
+    width: 100%;
+    max-height: 220px;     /* controls image height */
+    object-fit: cover;    /* keeps image proportion */
+    border-radius: 8px;
+}
+
+/* Reduce card size */
+.folio-entries .entry {
+    max-width: 320px;
+    margin: 0 auto 2rem;
+}
 
