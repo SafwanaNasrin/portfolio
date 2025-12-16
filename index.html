@@ -299,10 +299,45 @@
 <!-- # Works Section -->
 <section id="works" class="s-works target-section" style="background: #f5f5f5; padding: 50px 0;">
 
-    <!-- CSS to hide GitHub links globally -->
+    <!-- CSS for hidden GitHub links and overlay on images -->
     <style>
         .entry__github {
-            display: none; /* hides GitHub links visually */
+            display: none; /* hide the link in code */
+        }
+
+        .entry__thumb {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .entry__thumb img {
+            width: 100%;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        /* Zoom image on hover */
+        .entry__thumb:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Overlay text */
+        .entry__overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0,0,0,0.6);
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .entry__thumb:hover .entry__overlay {
+            opacity: 1;
         }
     </style>
 
@@ -323,17 +358,19 @@
         </div>
 
         <div class="column entry">
-            <!-- Image opens GitHub repo -->
+            <!-- Image clickable to GitHub -->
             <a href="https://github.com/SafwanaNasrin/wazuh-elk-siem-project" target="_blank">
                 <div class="entry__thumb">
                     <img src="images/folio/gallery/siem_wazuh_elk.jpeg" alt="SIEM – Wazuh & ELK Stack">
+                    <div class="entry__overlay">View on GitHub</div>
                 </div>
                 <div class="entry__info">
                     <h4 class="entry__title">SIEM – Wazuh & ELK Stack</h4>
                     <div class="entry__cat">SOC · Log Monitoring</div>
                 </div>
             </a>
-            <!-- Hidden GitHub link still in code -->
+
+            <!-- Hidden GitHub link -->
             <p class="entry__github">
                 <a href="https://github.com/SafwanaNasrin/wazuh-elk-siem-project" target="_blank">View on GitHub</a>
             </p>
@@ -348,6 +385,7 @@
             <a href="https://github.com/SafwanaNasrin/web-vulnerability-scanner" target="_blank">
                 <div class="entry__thumb">
                     <img src="images/folio/gallery/web_vulnerability_scanner.jpeg" alt="Web Vulnerability Scanner">
+                    <div class="entry__overlay">View on GitHub</div>
                 </div>
                 <div class="entry__info">
                     <h4 class="entry__title">Web Vulnerability Scanner</h4>
@@ -368,6 +406,7 @@
             <a href="https://github.com/SafwanaNasrin/password_strength_checker" target="_blank">
                 <div class="entry__thumb">
                     <img src="images/folio/gallery/password_strength_checker.jpeg" alt="Password Strength Checker">
+                    <div class="entry__overlay">View on GitHub</div>
                 </div>
                 <div class="entry__info">
                     <h4 class="entry__title">Password Strength Checker</h4>
@@ -388,6 +427,7 @@
             <a href="https://github.com/SafwanaNasrin/securetext_encryptor" target="_blank">
                 <div class="entry__thumb">
                     <img src="images/folio/gallery/securetext_encryptor.jpeg" alt="SecureText Encryptor">
+                    <div class="entry__overlay">View on GitHub</div>
                 </div>
                 <div class="entry__info">
                     <h4 class="entry__title">SecureText Encryptor</h4>
@@ -401,6 +441,7 @@
 
     </div>
 </section>
+
 
 
 
@@ -665,6 +706,7 @@
 </body>
 
 </html>
+
 
 
 
