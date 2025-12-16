@@ -4441,3 +4441,16 @@ td:last-child {
         right: -2rem;
     }
 }
+.entry__thumb img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.entry__github a {
+    color: #ff4d00;
+    font-weight: 600;
+    text-decoration: none;
+}
+
