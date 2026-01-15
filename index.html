@@ -279,34 +279,48 @@
     <div class="row">
         <div class="column xl-12">
             <div class="section-header" data-num="02">
-                <h2 class="text-display-title">Experience.</h2>
+                <h2 class="text-display-title">Where I’ve Worked</h2>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="column xl-8 md-12">
+        <div class="column xl-10 md-12">
 
-            <!-- EXPERIENCE BOX -->
-            <div class="experience-box">
+            <div class="exp-wrapper">
 
-                <h3>IT Trainer <span>@ Livewire</span></h3>
-                <p class="exp-date">July 2025 – Present</p>
+                <!-- LEFT SIDE (COMPANIES) -->
+                <div class="exp-tabs">
+                    <button class="exp-tab active" onclick="showExperience('livewire')">
+                        Livewire
+                    </button>
+                </div>
 
-                <p>
-                    I work as an IT Trainer at Livewire, where I deliver hands-on training in
-                    cybersecurity, ethical hacking, networking, and Linux fundamentals.
-                    My focus is on practical learning and real-world implementation.
-                </p>
+                <!-- RIGHT SIDE (CONTENT) -->
+                <div class="exp-content">
 
-                <p>
-                    I guide students in building security-focused projects, explain OWASP Top 10
-                    vulnerabilities using live demonstrations, and mentor learners for internships,
-                    certifications, and entry-level IT and cybersecurity roles.
-                </p>
+                    <div id="livewire" class="exp-panel active">
+
+                        <h3>
+                            IT Trainer
+                            <span>@ Livewire</span>
+                        </h3>
+
+                        <p class="exp-date">July 2025 – Present</p>
+
+                        <ul>
+                            <li>Delivered hands-on IT and cybersecurity training sessions</li>
+                            <li>Conducted practical labs in ethical hacking, networking, and Linux</li>
+                            <li>Guided students in building real-world security projects</li>
+                            <li>Explained OWASP Top 10 vulnerabilities using live demonstrations</li>
+                            <li>Mentored learners for internships and entry-level IT roles</li>
+                        </ul>
+
+                    </div>
+
+                </div>
 
             </div>
-            <!-- END EXPERIENCE BOX -->
 
         </div>
     </div>
@@ -547,6 +561,7 @@ Have a project, question, or collaboration in mind? I’m always open to connect
 </body>
 
 </html>
+
 
 
 
