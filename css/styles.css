@@ -4634,4 +4634,43 @@ td:last-child {
     left: 0;
     color: #38bdf8;
 }
+/* ===== YOUR REQUESTED THEME ===== */
+
+/* SECTION BACKGROUND (BLUE) */
+.s-experience {
+    background: #0f172a; /* deep blue */
+    color: #e5e7eb;      /* default light grey text */
+}
+
+/* MAIN CARD */
+.exp-wrapper {
+    background: #0b1220; /* slightly darker blue */
+}
+
+/* JOB TITLE (WHITE) */
+.exp-panel h3 {
+    color: #ffffff;
+}
+
+/* COMPANY NAME (BLUE) */
+.exp-panel h3 span {
+    color: #38bdf8; /* light blue */
+}
+
+/* DATE (GREY) */
+.exp-date {
+    color: #94a3b8;
+}
+
+/* BULLET POINTS (GREY-WHITE MIX) */
+.exp-panel ul li {
+    color: #e2e8f0; /* soft white */
+}
+
+/* BULLET ARROW (BLUE) */
+.exp-panel ul li::before {
+    color: #38bdf8;
+}
+
+/* ACTIVE TAB*
 
