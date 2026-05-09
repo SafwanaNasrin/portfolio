@@ -79,7 +79,45 @@
 :root {
     --font-1: "Public Sans", Sans-serif;
     --font-2: "Castoro", Serif;
+/* Cybersecurity Background */
+.s-intro {
+    background: linear-gradient(
+        135deg,
+        #050816,
+        #0a192f,
+        #111827
+    );
+    
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
 
+/* Glow effect */
+.s-intro::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: rgba(0, 255, 255, 0.15);
+    border-radius: 50%;
+    top: -200px;
+    right: -150px;
+    filter: blur(120px);
+}
+
+/* Another glow */
+.s-intro::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: rgba(168, 85, 247, 0.18);
+    border-radius: 50%;
+    bottom: -200px;
+    left: -100px;
+    filter: blur(120px);
+}
   /* monospace
    */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
